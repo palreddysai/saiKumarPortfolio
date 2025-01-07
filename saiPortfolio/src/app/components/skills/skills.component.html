@@ -1,0 +1,15 @@
+<div class="skillsMain">
+    <div class="skillsHeader">
+        <h2>
+            Skills:
+        </h2>
+        <div *ngFor="let list of skillsList">
+            <div class="row pb-2">
+                <h5 class="col-2 text-end">{{list.skillName}} </h5>
+                <div class="col-5">
+                    <mat-progress-bar mode="determinate" value={{list.skillProgress}}></mat-progress-bar>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

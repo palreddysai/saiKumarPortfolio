@@ -1,0 +1,16 @@
+.footerMain {
+  padding-top: 12px;
+  .contactMe {
+    .contactTitle {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+  .copyRight {
+    p {
+      mat-icon {
+        font-size: 22px;
+      }
+    }
+  }
+}

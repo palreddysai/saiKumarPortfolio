@@ -1,0 +1,11 @@
+h5{
+    padding: 0;
+    margin: 0;
+}
+mat-progress-bar{
+    height: 8px;
+    border-radius: 8px;
+}
+:host ::ng-deep mat-progress-bar .mdc-linear-progress__bar-inner {
+    border-top-width: 8px;
+  }

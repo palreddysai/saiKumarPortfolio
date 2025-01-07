@@ -1,0 +1,51 @@
+.aboutMain {
+  border: solid green;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .proPic {
+    padding: 24px;
+    text-align: center;
+    img {
+      width: 350px;
+      height: 350px;
+      border-radius: 50%;
+      box-shadow: -4px 4px 4px #252525;
+    }
+  }
+  .content {
+    padding-left: 24px;
+    .textHead {
+      display: inline-block;
+      .text {
+        margin-top: 48px;
+        font-size: 28px;
+        border-right: 2px solid;
+        width: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typing 3s forwards, cursor 0.4s step-end infinite alternate;
+      }
+
+      @keyframes cursor {
+        from,
+        to {
+          border-color: transparent;
+        }
+        50% {
+          border-color: #252525;
+        }
+      }
+
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
