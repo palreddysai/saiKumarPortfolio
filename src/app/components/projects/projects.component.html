@@ -1,1 +1,21 @@
-<p>Projecct works</p>
+<section class="projectsMain">
+    <div class="projectsHeader">
+        <h2>{{projectHeader}}</h2>
+    </div>
+    <div class="row">
+        <div class="col-4 mb-4 " *ngFor="let project of projectData">
+            <div class="projectCard">
+            <div class="projectTile">
+                <b>
+                    <a href="{{project.githubLink}}" target="_blank">{{project.title}}
+                         <img src="../../../assets/images/github.png" alt="github" class="img-fluid imgGithub ">
+                    </a>
+                </b>
+            </div>
+            <div class="projectDescription">
+                <p>{{project.description}}</p>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>

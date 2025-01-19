@@ -1,0 +1,26 @@
+[
+  {
+    "id": "01",
+    "title": "Atendance Tracking System",
+    "description": "A simple and effective application for tracking attendance, designed to streamline record-keeping for schools, workplaces, and organizations. This system allows users to manage attendance records efficiently, monitor participation, and generate insightful reports. With an intuitive interface and customizable features, it’s ideal for improving accountability and productivity.",
+    "githubLink": "https://github.com/palreddysai/attendanceTracking"
+  },
+  {
+    "id": "02",
+    "title": "GitHub API Integration",
+    "description": "A project designed to integrate with GitHub's API, providing users with seamless access to GitHub's repository, commit, and user data. This application demonstrates how to fetch and display relevant information using GitHub's REST API, offering insights into repositories, contributors, and activity history. It’s a powerful tool for developers and organizations to analyze and interact with GitHub programmatically.",
+    "githubLink": "https://github.com/palreddysai/github-api"
+  },
+  {
+    "id": "03",
+    "title": "TimeSheet Management System",
+    "description": "A robust and efficient TimeSheet Management System designed to streamline the process of tracking and managing employee work hours, tasks, and productivity. This application is ideal for organizations looking to automate timekeeping, generate insightful reports, and improve workforce management.",
+    "githubLink": "https://github.com/palreddysai/timeSheet"
+  },
+  {
+    "id": "04",
+    "title": "E-Commerce Platform",
+    "description": "A dynamic and feature-rich E-Commerce platform designed to facilitate seamless online shopping experiences. This project offers essential tools for managing products, customers, and orders while providing a user-friendly interface for both buyers and administrators.",
+    "githubLink": "https://github.com/palreddysai/eCommerce"
+  }
+]

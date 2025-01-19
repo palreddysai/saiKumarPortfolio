@@ -1,0 +1,29 @@
+.projectCard
+{
+    height: 260px;
+    padding: 6px;
+    border: solid 2px black;
+    border-radius: 5px;
+    box-shadow: -4px 4px 3px #010101;
+    overflow-y: scroll;
+    .projectTile
+    {
+        font-size: 16px;
+        padding: 6px;
+    }
+    .projectDescription
+    {
+        padding: 0px 6px;
+    }
+}
+
+.imgGithub
+{
+    width: 20px;
+}
+
+
+a
+{
+    color: #010101;
+}

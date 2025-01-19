@@ -6,6 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent {
-emailMe: string = "saikumar.palreddy@gmail.com";
-copyRights:string = "All Rights Reserved 2024"
+emailMe: string = "palreddysai.kumar@gmail.com";
+
+today: Date = new Date();
+
+copyRights:string = "All Rights Reserved " + (this.today.getFullYear());
+
 }

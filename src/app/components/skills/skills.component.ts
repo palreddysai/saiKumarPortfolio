@@ -32,5 +32,18 @@ export class SkillsComponent {
     
     {skillName: "Git", skillProgress:80},
 
+  ];
+tableHeaders = ["Programming Skills", "Web Technologies", "Frameworks"]
+  skills = [
+    {
+      programmingSkills: 
+      [
+        "C", "Java", "NodeJS", "JavaScript", "TypeScript"
+      ]
+    },
+    {
+      webDevelopment:
+      []
+    }
   ]
 }
