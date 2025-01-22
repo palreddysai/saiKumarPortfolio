@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class ProjectsComponent implements OnInit{
   projectHeader: string = "Projects"
   projectData:any = []
-private projectUrl = "../../../assets/data/projects.json"
+private projectUrl = "./assets/data/projects.json"
 constructor(private httpClient: HttpClient){}
 
   ngOnInit() {
